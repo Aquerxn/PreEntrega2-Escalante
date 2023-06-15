@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* IMAGEN DE FONDO Y FONT FAMILY */
+body{
+    background-image: url(../img/fondo-steve1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+/* TAMANIO Y POSICION DE LA IMAGEN DEL ALDEANO */
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.container-img img{
+    width: 120px;
+    margin-top: 20px;
+}
+
+/* COLOR, TAMANIO Y POSICION DEL TEXTO SALUDADON A STEVE */
+
+.texto-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.texto-container h1{
+    margin: 20px auto;
+}
+/* COLOR, TAMANIO, POSICION Y FONT FAMILY DE LOS BOTONES */
+
+.container-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    
+}
+
+button{
+    margin: 10px auto;
+    height: 60px;
+    width: 300px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    background: rgb(59,111,115);
+    background: linear-gradient(90deg, rgba(59,111,115,1) 0%, rgba(28,156,126,1) 50%, rgba(59,111,115,1) 100%);
+    border-color: rgb(73, 68, 68);
+}
+
+/* TAMANIO DE LOS ICONOS DE LOS BOTONES */
+
+button img{
+    width: 25px;
+}
+
+/* COLOR, TAMANIO Y POSICION DE LA ESMERALDA Y EL NUMERO */
+
+.container-esmeraldas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-esmeraldas img{
+    width: 80px;
+}
+
+.container-esmeraldas h2{
+    color: white;
+    font-size: 30px;
+    margin: auto 10px;
+}

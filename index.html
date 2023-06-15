@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Juego Minecraft</title>
+</head>
+<body>
+
+    <header>
+
+    </header>
+    
+    <main>
+        <!-- IMAGEN DEL ALDEANO -->
+        <div class="container-img">     
+            <img src="./img/aldeano.png">       
+        </div>
+        <!-- TEXTO SALUDO A STEVE -->
+        <div class="texto-container">
+            <h1>¡Hola, Steve!</h1>
+            <p>¿Qué deseas tradear?</p>
+        </div>
+        <!-- BOTONES -->
+        <div class="container-botones">
+            <div class="botones">
+                <button onclick="comprar(HERRAMIENTAS)"><img src="img/pico2.png" alt="Icono"> Herramientas</button>
+                
+                <button onclick="comprar(ARMADURA)"><img src="img/armadura-de-diamante.png" alt="Icono"> Armadura</button>
+                
+                <button onclick="comprar(COMIDA)"><img src="img/chuleta.png" alt="Icono"><img src="img/filete.png"> Comida</button>
+                
+                <button onclick="comprar(LIBROS)"><img src="img/libro.png" alt="Icono"> Libros Encantados</button>
+
+                <button onclick="listInventario()"><img src="img/caja.png" alt="Icono"> Inventario</button>
+
+                <button onclick="buscarEnInventario()"><img src="img/catalejo.png" alt="Icono"> Buscar</button>
+            </div>
+        </div>
+        <!-- IMAGEN Y TEXTO DE LA ESMERALDA -->
+        <div class="container-esmeraldas">
+            <img src="img/esmeralda.png" alt="Esmeralda">
+            <h2> <span id="esmeralda"></span></h2>
+        </div>
+
+    <footer>
+
+    </footer>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
